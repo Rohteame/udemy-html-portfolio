@@ -1,0 +1,81 @@
+/*Global Classes*/
+.title-text {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 70px;
+    font-family: var(--roboto);
+}
+
+.text-uppercase{
+    text-transform: uppercase;
+}
+
+
+
+
+/*Buttons*/
+.button{
+    padding: 0.8rem 2.2rem;
+    font: normal 500 16px/20px var(--roboto);
+    position: relative;
+    border: 0px solid transparent;
+    border-radius: 5px;
+}
+
+.button.button-primary{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: whitesmoke;
+    transition: background 0.6s ease;
+    box-shadow: var(--box-shadow);
+} 
+
+.button.button-primary:hover{
+    background: whitesmoke;
+    background-clip: padding-box;
+    color: black;
+}
+
+.button.button-primary::after, .button.button-secondary::after {
+    position: absolute;
+    top: -2px; left: -2px;
+    bottom: -2px; right: -2px;
+    background: var(--gradient-color);
+    content: ' ';
+    z-index: -1;
+    border-radius: 5px;
+}
+
+
+.button.button-secondary{
+    background: rgb(255, 255, 255);
+    background-clip: padding-box;
+    transition: background 1s ease;
+}
+
+
+.button.button-secondary:hover{
+    background: var(--gradient-color);
+    background-clip: padding-box;
+    color: white;
+}
+
+p.para{
+    color: var(--text-color);
+    font: normal 500 16px/ 25px var(--roboto);
+}
+
+.font-roboto{
+    font-family: var(--roboto);
+}
+
+button:focus, button:active button:hover
+.btn:active, .btn.active{
+    outline: 0px !important;
+     box-shadow: none !important;
+}
+
+.title-h1{
+    font: normal bold 39px/ 40px var(--roboto);
+}

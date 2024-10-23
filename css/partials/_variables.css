@@ -1,0 +1,17 @@
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+/* CSS Variables */
+:root{
+    --title-color: #ca3939;
+    --border-color: rgb(180, 176, 176);
+    --box-shadow: 2px 2px 20px rgb(91, 93, 93);
+    --gradient-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%); 
+    --primary-color: #854fee;
+
+    /* font family variables */
+    --lucida: 'Lucida Sans';
+    --roboto: 'Roboto'
+}
+

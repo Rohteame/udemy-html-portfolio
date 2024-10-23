@@ -1,0 +1,44 @@
+/* if viewport <= 340px */
+@media only screen and (max-width: 340px){
+    .navbar, .navbar-brand
+    {
+        padding: 2%;
+        margin-bottom: 0;
+    }
+
+    .body
+    {
+        justify-content: center;
+        padding: 20% 50%;
+        margin-bottom: 0;
+    }
+
+    .site-title h3::after{
+        content: " ";
+        margin: 0px;
+        height: 0px;
+        width: 0px;
+        margin-left: 0px;
+        transform: translateY(0px);
+    }
+
+    .site-title h1, .site-title h3{
+        font-size: 40px;
+    }
+
+    .site-buttons .button-primary{
+        margin-bottom: .4rem;
+    }
+
+    .about-area{
+        padding: 10%;
+    }
+    
+    .about-area .paragraph p{
+        display: inline-block;
+        font:normal 30px/ 35px var(--roboto);
+    }
+
+
+    
+}

@@ -1,0 +1,18 @@
+
+  
+  .product{
+    margin: 10rem;
+  }
+  
+ .product .item-box img{
+    width: 30px;
+ }
+ 
+ body{
+    background-color: black;
+ }
+
+ .image:hover{
+    opacity: 0.5;
+    cursor: pointer;
+ }
